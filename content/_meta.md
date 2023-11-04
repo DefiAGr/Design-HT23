@@ -1,11 +1,11 @@
 ---
-Logo: image/leaf_256x256.png
-Tagline: My portfolio.
+Logo: image/burg.jpg
+Tagline: Davids portfolio.
 Social:
     - title: Link till sidans github repo.
-      url: https://github.com/dbwebb-se/design-v3
+      url: https://github.com/DefiAGr/Design-HT23
       icon: github
-    - title: Länk till youtube?
+    - title: Länk till youtube
       url: https://www.youtube.com/watch?v=cWR4lLQa7RE&t=1107s
-      icon: youtube
+      icon: leaf
 ---

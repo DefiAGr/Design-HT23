@@ -42,8 +42,14 @@ body {
 
 /* Title */
 
-.title, .logo {
-    padding: 3em 3em 3em 0;
+.title {
+    padding: 3em;
+}
+
+.logo{
+    margin: 3em;
+  border-radius: 50%; /* Create a circular shape */
+  overflow: hidden; /* Clip the image inside the circle */
 }
 
 @media (max-width: 767px) {
