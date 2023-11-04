@@ -46,10 +46,9 @@ body {
     padding: 3em;
 }
 
-.logo{
+.logo {
     margin: 3em;
-  border-radius: 50%; /* Create a circular shape */
-  overflow: hidden; /* Clip the image inside the circle */
+  border-radius: 50%; 
 }
 
 @media (max-width: 767px) {
