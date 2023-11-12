@@ -1,0 +1,128 @@
+body {
+    background-color: $background-color;
+}
+
+* {
+    color: $font-color;
+}
+
+.header {
+    padding: 0.5em 1em;
+    margin-left: auto;
+    width: 100%;
+    background-color: $background-alternative-color;
+    @include line-height-and-font;
+    border-bottom-left-radius: 90%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.header p {
+    padding:0 2em;
+    margin-left: auto;
+}
+
+.header img {
+    border-radius: 50%;
+    padding:0 2em;
+}
+
+.header h1, h2, h3, h4 {
+    font-family: $header-font;
+    padding:0 2em;
+    margin-left: auto;
+}
+
+
+.footer {
+    background-color: rgb(0, 0, 0);
+    @include line-height-and-font;
+    font-size: 20px;
+    padding: 20px 100px 50px 50px;
+}
+
+
+
+
+
+
+@media (max-width: 767px) {
+    .title, .logo {
+        padding: 1em 1em 1em 0;
+    }
+
+    .title {
+        min-width: 50%;
+    }
+
+    .logo {
+        max-width: 30%;
+    }
+
+    .main img {
+        width: 50%; 
+        height: auto;
+    }
+}
+
+@media (max-width: 963px) {
+    .main img {
+        width: 80%; 
+        height: auto;
+    }
+}
+
+
+
+.title * {
+    color: #111;
+    @include line-height-and-font;
+}
+
+.title p {
+    font-style: italic;
+    
+}
+
+.nav {
+    margin-left: auto;
+    margin-right: 40px;
+}
+
+.nav a {
+    font-size: 32px;
+    text-decoration: dotted underline;
+    padding: 3px;
+    color: $font-color;
+    @include line-height-and-font;
+}
+
+.nav a:hover {
+    border: solid 4px $background-color;
+    border-radius: 50px;
+    text-decoration: none;
+    padding: 5px;
+}
+
+
+.main {
+    
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+    border-radius: 20px;
+    background-color: $background-alternative-color;
+    padding: 2rem;
+    @include line-height-and-font;
+    font-size: 16px;
+}
+
+.main h1, .main h2, .main h3, .main h4 {
+    font-family: $header-font;
+}
+
+.main img {
+    border-radius: 50%;
+}
+

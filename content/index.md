@@ -6,9 +6,8 @@ Description: This is our index page.
 Home page
 ==========================
 
-The source for this page is in `content/index.md`.
 
-David den trevliga sonen
+🩷💀🫱🏿‍🫲🏻🌴🐢🐐🍄⚽🫧👑📸🪼👀🚨🏡🕊️🏆😻
 
 Denna sidan handlar kort och gott om mig och min resa under denna kursen. Jag kommer uppdatera löpande under kursen och efter behov.
 
@@ -21,5 +20,7 @@ Jag har läst en kandidat inom fastighetsförmedling och jobbad bland annat som 
 Utöver mitt yrkesliv har jag även stort intresse för brädspel och datorspel. Gillar att testa på olika spel och spela klassiker. Jag försöker även jobba på mitt intresse för gymmet, som tidigare har funnits. Vi får väl se om det återkommer.
 
 Det var kort om mig, och om det inte är tydligt så gillar jag hamburgare.
+
+
 
 <img src="%assets_url%/img/manyburg.jpg" alt="me" width="800" height="400">
