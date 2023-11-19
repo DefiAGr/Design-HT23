@@ -1,0 +1,57 @@
+.landingpage {
+    display: grid;
+    gap: 1rem 2rem;
+
+    a{
+        color:$background-alternative-color;
+    }
+    h1 {
+        grid-column: span 3;
+        background-color: $background-color;
+        text-align: center;
+        color:$background-alternative-color;
+        
+    }
+}
+
+
+.box{
+    margin: 20px;
+    border: 1px solid green;
+    border-radius: 10px;
+    padding:2em;
+    background-color: $background-color;
+    text-align: center;
+
+    
+}
+
+
+.single-technology{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.tech-menu{
+    width: 30%;
+    text-align: center;
+    a{
+        padding:20px;
+        margin:10px;
+    }
+    a:hover {
+        border: solid 4px $background-color;
+        border-radius: 50%;
+        padding:20px;
+    }
+}
+.tech-content{
+    width: 60%;
+}
+
+
+pre {
+    background-color: black;
+}
