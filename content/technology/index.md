@@ -4,7 +4,7 @@ Description: This is our tech page.
 Template: technologies
 ---
 
-Tech
+Teknologier
 ==========================
 
 
