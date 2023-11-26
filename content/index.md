@@ -23,4 +23,4 @@ Det var kort om mig, och om det inte är tydligt så gillar jag hamburgare.
 
 
 
-<img src="%assets_url%/img/manyburg.jpg" alt="me" width="800" height="400">
+<img src="%assets_url%/img/manyburg.jpg" alt="me" width="800" height="400" class="pic">

@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Handjet:wght@500;800&family=Linefont:wght@700;1000&family=Victor+Mono:wght@600&display=swap');
+
+$font-color: #E6E6FA;
+$font-alternative-color: #fff;
+$accent-color: #f8f8f8;
+$background-color: rgb(44, 40, 255);
+$background-alternative-color: #140c24;
+
+$header-font: 'Handjet', arial;
+$main-font: 'Victor Mono', arial;
+
+$base-line-height: 1.4;
+
+@mixin line-height-and-font{
+    line-height: $base-line-height;
+    font-family: $main-font;
+    font-size: 20px;
+}

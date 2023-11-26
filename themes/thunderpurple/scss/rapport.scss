@@ -1,0 +1,38 @@
+.analys {
+
+    color:$font-color;
+    
+
+}
+
+.main-analys{
+    a {
+        color: $background-alternative-color;
+    }
+    
+}
+
+
+
+@media  (max-width: 768px) {
+    .main-analys {
+        gap: 0.5rem 1rem;
+        
+        grid-template-columns: span 1;
+
+        h1 {
+            grid-column: span 1;
+            border-radius: 10px;
+            padding: 1em;
+        }
+        
+    }
+}
+
+.analys img{
+    border-radius: 2%;
+}
+
+td{
+    border: 1px #ffff solid;
+}

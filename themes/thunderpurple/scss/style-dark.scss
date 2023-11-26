@@ -3,7 +3,7 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 @import '../../shared/fontawesome/scss/brands';
 @import '../../shared/fontawesome/scss/solid';
 @import '../../shared/fontawesome/scss/regular';
-@import 'variables';
+@import 'variables-dark';
 
 @import 'typography';
 
@@ -16,3 +16,4 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 @import '../../shared/fontawesome/scss/fontawesome';
 
 @import 'technologies';
+@import 'rapport';

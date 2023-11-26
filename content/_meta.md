@@ -11,4 +11,10 @@ Social:
     - title: Bible
       url: https://www.bible.com/bible/1588/JAS.1.AMP
       icon: fas fa-bible
+    - title: Dark Mode
+      url: ?action=theme
+      icon: fas fa-moon
+    - title: Destroy Session
+      url: ?action=session_destroy
+      icon: fas fa-trash-alt
 ---

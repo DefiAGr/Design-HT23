@@ -43,6 +43,10 @@ body {
     width: 100%;
 }
 
+.social a{
+    text-decoration: none;
+}
+
 
 
 
@@ -123,6 +127,6 @@ body {
     font-family: $header-font;
 }
 
-.main img {
+.pic {
     border-radius: 50%;
 }
