@@ -1,13 +1,13 @@
 ---
 Title: Bild
-Description: This is our Bild page.
+Description: This is our Laddningstid page.
 Template: analyser
 ---
 
-Färg rapport
+Bild rapport
 =======================
 
-Denna uppgiift handlar om att undersöka och utvärdera tre hemsidor. Vad vi vill kontrollera är deras färgpalette, färgschema, typsnitt och övriga designprinciper de använder.
+Denna uppgiift handlar om att undersöka och utvärdera tre hemsidor. Vad vi vill kontrollera är deras bilder de använder och hur snabbt dessa bilder tar att ladda på de olika hemsidorna.
 
 # Urval
 -----------------------
@@ -18,137 +18,114 @@ Jag har valt följande 3 hemsidor:
 
 
 - https://www.nintendo.se/: Detta är en hemsida kopplad till varumärket Nintendo som är ett japanskt företag som främst tillverkar spelkonsoler och TV-spel. 
-- https://www.bookboost.io/: Är en plattform för hotel och liknande aktörer som använder plattformen för att effektivisera kontakten med sina kunder.
-- https://www.hemnet.se/: Det är en svensk marknadsplats för främst bostäder till salu och statistik kopplad till dessa försäljningar.
+- https://www.golfwang.com/: Det är en klädesplattform med fokus på amerikansk street-wear skapas av musikartisten Tyler the creator.
+- https://oddfuture.com/: Det är en plattform för amerikansk street-wear med fokus på Odd future. Odd future är ett hiphop kollektiv och deras färger har fokus på rosa, gul och blå. 
 
 
-Dessa hemsidor har valts med anledning av att de har olika syften och olika målgrupper. Nintendo har som målgrupp att nå ut till främst Tv-spel intresserade medan Bookboost vill nå ut till olika företag inom hotellbranchsen. Dessa har båda internationella marknader. Hemnet har sin huvudmarknad i Sverige och har som målgrupp den som vill köpa sitt nästa boende. 
+Dessa hemsidor har valts med anledning av att de använder många typer av olika bilder i form av både stilla bild och rörande bilder och animationer.
 
-Jag har alltså valt olika typer av hemsidor för att få en bättre inblick i hur olika aktörer använder sig av färg och design för att matcha deras profil och framhäva deras hemsida.
-
+Jag har alltså valt olika typer av hemsidor för att få en bättre inblick i hur olika aktörer använder sig avbilder för att framhäva olika känslor med sina bilder samtidigt som vi undersöker hur det påverkar prestandan.
 
 
 # Metod
 -----------------------
-Målet med detta arbete är att undersöka olika hemsidors val av färg, typsnitt och val av bilder. Därför börjar vi med att besöka deras startsida och analyserar den för att få en bra inblick och överblick.
+Målet med detta arbete är att undersöka olika hemsidors val av bild och laddningstider. Därför börjar vi med att besöka deras startsida och samlar oss en överblick.
 
-Verktygen som används i font ninja, adobe color wheel samt ColorZilla.  
+Vi använder oss av ctrl + shift + r när vi uppdaterar sidan för att alltid ladda om utan cookies. På så sätt ser vi till att ingen bild sparas sedan tidigare och påverkar laddningstiden. 
 
-Font Ninja har jag använd för att identifiera typ av typsnitt på hemsidorna jag har besökt.  
-Adobe color wheel har jag använd mig av för att identifiera typ av färgschema ett företag använder sig av.  
-ColorZilla har använts för att identifiera färgpalette och specifika färger på de olika hemsidorna. 
+Det verktyg vi använder oss av för att få fram en score på webbplatsen är med hjälp av Google Pagespeed. Vi ger den tre olika sidor per hemsida och sammanställer snittet för respektive. Det samma gäller med resterande data som vi samlar via devtools för respektive hemsida.
 
-Därefter har jag analyserad färg, färgpalette och typsnitt och för att få en helhetsbild av dessa hemsidorna. 
-
+Därefter jämför vi datan och laddningstiderna och kommer fram till vilken hemsida som vinner i testet med bäst mätvärden.
 
 
 # Resultat
 -----------------------
 
-Nedan presenteras de tre olika hemsidorna, deras bilder och färgpallette samt deras val av typsnitt för H1-H3 och brödtext.
+Nedan presenteras de tre olika hemsidorna, med tre olika sidor. Det presenteras i både bild i form av en skärmdump i PNG format, inbäddad mätningsdata samt kommentar gällande laddningstiden. Mätvärdena gäller för dator och inom parantes finns datan för mobil.
 
 
 
 # Nintendo
 
-
+## Startsida:  
 <img src="%assets_url%/img/nintendo.png" alt="Nintendo" width="800" height="400">
 
+## Slumpad menyval: 
+
+<img src="%assets_url%/img/nintendo2.png" alt="Nintendo" width="800" height="400">
+
+## Artikelval: 
+
+<img src="%assets_url%/img/nintendo3.png" alt="Nintendo" width="800" height="400">
 
 
-## Nintendos färgpalette:   
 
-<table style="border-spacing: 4px; border-collapse: separate">
-<tr>
-<td style="height: 50px; width: 50px; background-color: #E60012">
-<td style="height: 50px; width: 50px; background-color: #303033">
-<td style="height: 50px; width: 50px; background-color: #FFFFFF">
-</tr>
-</table>
-
-## Typsnitt:   
-- Open sans (Light)
+## Mätningarna
 
 
-Nintendos hemsida använder sig främst av bilder som framhäver de olika spel de har tillgängligt just nu. Jag tycker att valet av en färg matchar väldigt bra då man har en tydlig signaturfärg och tydlig vit bakgrund som framhäver de olika spelen. 
------------------------
-# Bookboost 
+<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQyqwiw3nDesOEl_qaQEhciKgKuRjfGLugAW4S6vGJO_Yx1NaWC2Cn1oZ6HjmkSfhvVI0IvW-cZEdGZ/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false" style="width:70%; height:200px;" ></iframe>
 
-
-<img src="%assets_url%/img/bookboost.png" alt="Bookboost" width="800" height="400">
-
-  
-
-## Bookboosts färgpalette:
-  
-<table style="border-spacing: 4px; border-collapse: separate">
-<tr>
-<td style="height: 50px; width: 50px; background-color: #42307D">
-<td style="height: 50px; width: 50px; background-color: #3A2A6A">
-<td style="height: 50px; width: 50px; background-color: #5D4A8F">
-<td style="height: 50px; width: 50px; background-color: #7866A1">
-<td style="height: 50px; width: 50px; background-color: #9283B4">
-</tr>
-</table>
-
-  
-
-
-## Typsnitt:
-  
- - DM Sans (Regular) (Medium) (Bold) (Semi-bold)
- - Inter
-
-
-Syftet med denna hemsida är främst för företag som eventuellt är intresserad av deras tjänst. Färgprofilen samt bilderna matchar detta mål då det använder lätt text med tydliga bilder av hur tjänsten ser ut.
+Nintendos hemsida använder sig främst av många bilder som framhäver de olika spel de har tillgängligt. Laddningstiden är helt okej med tanke på alla resurser som laddas in.
 
 -----------------------
-# Hemnet
+# Golf Wang 
+
+
+## Startsida: 
+
+<img src="%assets_url%/img/golf.png" alt="Golf Wang" width="800" height="400">
+
+## Slumpad menyval:
+
+<img src="%assets_url%/img/golf2.png" alt="Golf Wang" width="800" height="400">
+
+## Artikelval: 
+
+<img src="%assets_url%/img/golf3.png" alt="Golf Wang" width="800" height="400">
 
   
-<img src="%assets_url%/img/hemnet.png" alt="Hemnet" width="800" height="400">
 
+## Mätningarna
 
+<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQyqwiw3nDesOEl_qaQEhciKgKuRjfGLugAW4S6vGJO_Yx1NaWC2Cn1oZ6HjmkSfhvVI0IvW-cZEdGZ/pubhtml?gid=1091986551&amp;single=true&amp;widget=true&amp;headers=false" style="width:64%; height:200px;" ></iframe>
 
-  
-## Hemnets färgpalette:
-   
-  
-<table style="border-spacing: 4px; border-collapse: separate">
-<tr>
-<td style="height: 50px; width: 50px; background-color: #013A14">
-<td style="height: 50px; width: 50px; background-color: #0BB70B">
-<td style="height: 50px; width: 50px; background-color: #007E47">
-<td style="height: 50px; width: 50px; background-color: #E4E8DA">
-</tr>
-</table>
-   
-   
-       
-   
-   
-## Typsnitt:
-- Roboto (Regular) (Medium)
-- Hemnet Bonad (Demi-bold) 
+Golf Wang är nog den hemsida som har längst laddningstid och sämst mätvärden. Den kan bero bland annat på storleken på de olika bildernas storlek men även på antalet resurser som laddas in. 
+
+-----------------------
+# Odd Future
 
   
+
+## Startsida: 
+<img src="%assets_url%/img/oddfuture.png" alt="Hemnet" width="800" height="400">
+
+## Slumpad menyval:
+
+<img src="%assets_url%/img/oddfuture2.png" alt="Hemnet" width="800" height="400">
+
+## Artikelval: 
+
+<img src="%assets_url%/img/oddfuture3.png" alt="Hemnet" width="800" height="400">
+
+
+
    
-Hemnet är en hemsida som är avsedd för medelsvensson, för att kunna leta efter sin nästa bostad. Sidan har i min mening mål att framhäva de unika lägenhetsannonserna vilket färgvalet också matchar.
+## Mätningarna
+
+<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQyqwiw3nDesOEl_qaQEhciKgKuRjfGLugAW4S6vGJO_Yx1NaWC2Cn1oZ6HjmkSfhvVI0IvW-cZEdGZ/pubhtml?gid=758385823&amp;single=true&amp;widget=true&amp;headers=false" style="width:66%; height:200px;"></iframe>
+
+Odd future sticker ut med väldigt stor variation mellan mobila och dator mätvärdena. 
    
 -----------------------
 #  Analys
 -----------------------
 
-Analyserar jag färgpaletten så använder sig både Bookbost och Hemnet sig av en monokrom färgpalette. Flera nyanser av liknande färg, vilket är intresserant när man jämför med Nintendo som endast använder sig av en enda nyans av färgen Röd. Detta även för målet med hemsidan. 
+Vad man kan utläsa är att Nintendo har väldigt mycket resurser och storlek på sin startsida som men som ändå har en hyfsad laddningstid jämfört med Odd future som har färre resurser men liknande laddningstid. Golf Wang är skapad för att synas på dator och även där tar det väldigt lång tid för laddningstid, främst för mängden och storleken på bilderna de laddar upp. 
 
-Hemnet och Nintendo har en tydlig färg som de associserar sig starkt med och använder därefter tydligt vit nyans för att framhäva de annonsenser och bilderna på bostäder och spel till salu. 
-Skillnaden mellan dessa två och Bookboost är att Bookboost inte är beroende av andra aktörer som säljer via deras hemsida utan de har en huvudtjänst och lägger därför ner mer tid på att framhäva sina egna färger mer. Detta är något som blir svårt för Nintendo då olika spel har olika färger och texter. Det återspeglas även i deras val av typsnitt som är ett enda, Open Sans. 
+Utseendemässigt är det en annan diskussion hur bilderna används och hur man laddar in färre resurser beronde på om det är mobil eller dator. Här sticker det tydligare ut att Nintendo försöker optimera då en stor del försvinner vid mobil vyn. Detta är något som även sker på de övriga men inte alls i lika stor utsträckning. Golf Wang minskar inte antalet resurser särskilt mycket även när man går över till mobil vyn. Vilket blir tydligt av mätvärdena. 
 
-För att sammanfatta använder sig Nintendo av minimalistisk design för att framhäva de olika spel de marknadsför via sin hemnsida. Även Hemnet gör detta men använder sig mer av sin signaturfärg grön i olika nyanser för att framhäva de olika lägenhetsannonserna men även sig själva då Hemnet är en tjänst. 
 
-Bookboost skiljer sig då de endast har sin egna tjänst att sälja och använder då ett tydligare färgschema och bilder.
-
-Lärdom av detta är att man använder sig av olika färgscheman beroende på syftet med hemsidan och vad man vill framföra. 
+Enligt statistiken och laddningstiden så är vinnaren Nintendo med den bästa hemsidan sett till helheten även om Odd futures hemsida har bättre prestanda i Desktop vy. Andra platsen går till Odd future som är väldigt nära och som har högre snitt på desktop vy men som inte är lika anpassad. Tredje platsen går till Golf wang som har längst laddningstider och flest resurser och sämst prestanda på både mobil och desktop. 
 
 
 -----------------------
