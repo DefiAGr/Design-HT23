@@ -9,10 +9,10 @@ body {
 .header {
     padding: 0.5em 1em;
     margin-left: auto;
+    margin-bottom: 40px;
     width: 100%;
     background-color: $background-alternative-color;
     @include line-height-and-font;
-    border-bottom-left-radius: 90%;
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -81,12 +81,12 @@ body {
 
 
 .title * {
-    color: #111;
+    color: $font-color;
     @include line-height-and-font;
 }
 
 .title p {
-    font-style: italic;
+    font-style: bold;
     
 }
 
@@ -97,7 +97,6 @@ body {
 
 .nav a {
     font-size: 32px;
-    text-decoration: dotted underline;
     padding: 3px;
     color: $font-color;
     @include line-height-and-font;
